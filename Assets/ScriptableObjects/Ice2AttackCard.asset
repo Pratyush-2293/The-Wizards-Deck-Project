@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e780b07614d6f4d85a356190cfbaa3, type: 3}
   m_Name: Ice2AttackCard
   m_EditorClassIdentifier: 
-  cardTitle: Multi Ice
-  description: Casts multiple Ice attacks
+  cardTitle: Ice Blast
+  description: Cast a Massive Bomb of Ice
   damage: 4
   cost: 2
   damageType: 1
-  cardImage: {fileID: 21300000, guid: bcb0fa8c072846d4a95fdaeab49e7e96, type: 3}
-  frameImage: {fileID: 21300000, guid: e2fe6af84c338cf4c82ebe4398707004, type: 3}
+  cardImage: {fileID: 21300000, guid: ccbfc49a3adba4545be60215b15c6174, type: 3}
+  frameImage: {fileID: 21300000, guid: e50fcc9030264724db45494d40617b6f, type: 3}
   numberInDeck: 4
   isDefenseCard: 0
   isMirrorCard: 0
   isMulti: 0
+  isDestruct: 0

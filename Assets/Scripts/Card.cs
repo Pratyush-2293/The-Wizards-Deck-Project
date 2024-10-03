@@ -26,7 +26,7 @@ public class Card : MonoBehaviour
         descriptionText.text = cardData.description;
         cardImage.sprite = cardData.cardImage;
         frameImage.sprite = cardData.frameImage;
-        costImage.sprite = GameController.instance.healthNumbers[cardData.cost];
+        costImage.sprite = GameController.instance.manaNumbers[cardData.cost];
         damageImage.sprite = GameController.instance.damageNumbers[cardData.damage];
     }
 }

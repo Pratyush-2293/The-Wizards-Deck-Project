@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e780b07614d6f4d85a356190cfbaa3, type: 3}
   m_Name: DestructCard
   m_EditorClassIdentifier: 
-  cardTitle: Destruct
-  description: Destroys the Enemy, made by Pratyush Gawali.
+  cardTitle: Retribution
+  description: Destroys the Enemy
   damage: 9
   cost: 5
   damageType: 2
-  cardImage: {fileID: 21300000, guid: 0110b48af07888947a30f4d7a7fdbc61, type: 3}
-  frameImage: {fileID: 21300000, guid: e2fe6af84c338cf4c82ebe4398707004, type: 3}
+  cardImage: {fileID: 21300000, guid: 0ce55291c14a57e47a98d809b5a850c8, type: 3}
+  frameImage: {fileID: 21300000, guid: e50fcc9030264724db45494d40617b6f, type: 3}
   numberInDeck: 6
   isDefenseCard: 0
   isMirrorCard: 0

@@ -20,6 +20,7 @@ public class GameController : MonoBehaviour
     public List<CardData> cards = new List<CardData>();
 
     public Sprite[] healthNumbers = new Sprite[10];
+    public Sprite[] manaNumbers = new Sprite[10];
     public Sprite[] damageNumbers = new Sprite[10];
 
     public Sprite fireBallImage = null;
@@ -49,7 +50,10 @@ public class GameController : MonoBehaviour
     public bool isPlayable = false;
     public bool playersTurn = true;
 
-    public Image enemySkipTurn = null;
+    public GameObject enemySkipTurn = null;
+
+    public GameObject playerPointer = null;
+    public GameObject enemyPointer = null;
 
     private void Awake()
     {
@@ -380,12 +384,20 @@ public class GameController : MonoBehaviour
     {
         if (playersTurn)
         {
-            turnText.text = "Merlin's Turn";
+            turnText.text = "Player's Turn";
+
+            playerPointer.gameObject.SetActive(true);
+            enemyPointer.gameObject.SetActive(false);
         }
         else
         {
             turnText.text = "Enemy's Turn";
+
+            playerPointer.gameObject.SetActive(false);
+            enemyPointer.gameObject.SetActive(true);
         }
+
+        // piggybacking off of this method to change pointers
     }
 
     internal void MonstersTurn()

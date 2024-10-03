@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e780b07614d6f4d85a356190cfbaa3, type: 3}
   m_Name: IceAttackCard
   m_EditorClassIdentifier: 
-  cardTitle: Ice Attack
+  cardTitle: Ice Shot
   description: Casts an Ice Attack
   damage: 2
   cost: 1
   damageType: 1
-  cardImage: {fileID: 21300000, guid: 7ed91a4a6d915d94cbd6aa4c15d50683, type: 3}
-  frameImage: {fileID: 21300000, guid: e2fe6af84c338cf4c82ebe4398707004, type: 3}
+  cardImage: {fileID: 21300000, guid: 3f9f17996371d504aa78d53c6ecd086e, type: 3}
+  frameImage: {fileID: 21300000, guid: e50fcc9030264724db45494d40617b6f, type: 3}
   numberInDeck: 6
   isDefenseCard: 0
   isMirrorCard: 0
   isMulti: 0
+  isDestruct: 0
