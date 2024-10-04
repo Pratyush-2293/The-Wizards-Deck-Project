@@ -45,6 +45,17 @@ public class Effect : MonoBehaviour
                     damage = damage / 2;
                 }
             }
+            else // check for player - halve fire and ice incoming damage
+            {
+                if (sourceCard.cardData.damageType == CardData.DamageType.Fire)
+                {
+                    damage = damage / 2;
+                }
+                if (sourceCard.cardData.damageType == CardData.DamageType.Ice)
+                {
+                    damage = damage / 2;
+                }
+            }
 
             targetPlayer.health -= damage;
             targetPlayer.PlayHitAnim();
