@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Health2Card
   m_EditorClassIdentifier: 
   cardTitle: Large Health
-  description: Restores 4 Health
-  damage: 4
+  description: Restores 2 Health
+  damage: 2
   cost: 1
   damageType: 0
   cardImage: {fileID: 21300000, guid: 6f12cc9b679987f4aaa19dfcd60fce40, type: 3}

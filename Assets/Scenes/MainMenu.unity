@@ -515,7 +515,7 @@ PrefabInstance:
     - target: {fileID: 6408672674672364873, guid: 725f33f80d9d33345aebbdb97ae50cfa, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1296290764, guid: d98786248a01c004497ad782b5f689aa, type: 3}
+      objectReference: {fileID: -1005707094, guid: d98786248a01c004497ad782b5f689aa, type: 3}
     - target: {fileID: 6408672674761279827, guid: 725f33f80d9d33345aebbdb97ae50cfa, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4255,10 +4255,14 @@ PrefabInstance:
       propertyPath: m_Text
       value: Small Health
       objectReference: {fileID: 0}
+    - target: {fileID: 6408672674369670321, guid: 725f33f80d9d33345aebbdb97ae50cfa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 333817311, guid: d98786248a01c004497ad782b5f689aa, type: 3}
     - target: {fileID: 6408672674672364873, guid: 725f33f80d9d33345aebbdb97ae50cfa, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1005707094, guid: d98786248a01c004497ad782b5f689aa, type: 3}
+      objectReference: {fileID: -62736511, guid: d98786248a01c004497ad782b5f689aa, type: 3}
     - target: {fileID: 6408672674761279827, guid: 725f33f80d9d33345aebbdb97ae50cfa, type: 3}
       propertyPath: m_IsActive
       value: 0

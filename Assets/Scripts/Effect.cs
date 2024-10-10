@@ -55,6 +55,10 @@ public class Effect : MonoBehaviour
                 {
                     damage = damage / 2;
                 }
+                if(sourceCard.cardData.damageType == CardData.DamageType.Both)
+                {
+                    damage = 2;
+                }
             }
 
             targetPlayer.health -= damage;
